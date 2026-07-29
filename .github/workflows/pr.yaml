@@ -13,6 +13,7 @@ jobs:
       - check-nightly-ci
       - changed-files
       - checks
+      - conda-java-tests-matrix
       - conda-java-tests
       - telemetry-setup
     secrets: inherit # zizmor: ignore[secrets-inherit]
